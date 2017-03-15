@@ -12,15 +12,18 @@ const NavItem = styled.div`
 const Nav = styled.nav`
     margin: 0 auto 30px auto;
     display: flex;
+    text-align: center;
+    justify-content: space-around;
+    width: 80vw;
     @media (max-width: 650px) {
         flex-direction: column;
     }
-    @media (max-width: 775px) {
-        width: 80vw;
+    @media (min-width: 775px) {
+        width: 70vw;
     }
-    text-align: center;
-    justify-content: space-around;
-    width: 70vw;
+    @media (min-aspect-ratio: 1/1) {
+        flex-direction: row;
+    }
 `
 
 const A = styled.a`

@@ -2,10 +2,10 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Title = styled.p`
-    margin: 140px auto 0 auto;
+    margin: 85px auto 0 auto;
     text-align: center;
     color: #16BFFD;
-    font: italic 500 1.5em/1.5 Roboto;
+    font: italic 500 1.5em/1.5 Roboto, sans-serif;
     letter-spacing: 0.5em;
     @media (min-width: 651px) {
         margin-top: 240px;
@@ -16,8 +16,8 @@ const Title = styled.p`
 `
 
 const SubTitle = styled.p`
-    margin: 0 auto 45px auto;
-    font: italic 300 1.5em/1.5 Roboto;
+    margin: 0 auto 50px auto;
+    font: italic 300 1.5em/1.5 Roboto, sans-serif;
     text-align: center;
     color: #16BFFD;
     letter-spacing: 0.5em;
