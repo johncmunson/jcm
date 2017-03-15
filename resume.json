@@ -1,0 +1,141 @@
+{
+  "basics": {
+    "name": "John Munson",
+    "label": "Full Stack Web Developer",
+    "picture": "",
+    "email": "johncmunson91@gmail.com",
+    "phone": "(309) 310-7858",
+    "website": "https://johncmunson.com",
+    "summary": "John hails from Bloomington, IL. He has earned a degree from Rose-Hulman Institute of Technology. (Go Fightin' Engineers!) Before entering the field of web development, he worked in Washington, D.C. as a construction manager, mostly focused on overseeing the completion of bridge and metrorail projects. While his work now focuses on fullstack web development, with a focus on React and Node, his non-work interests range widely, everything from quantum computing to chaos theory. He'd love to buy you a coffee or beer and tell you all about it!",
+    "location": {
+      "city": "Salt Lake City",
+      "countryCode": "US",
+      "region": "Utah"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "curtismunson",
+        "url": "twitter.com/curtismunson"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "",
+        "url": "linkedin.com/in/john-munson"
+      },
+      {
+        "network": "Github",
+        "username": "johncmunson",
+        "url": "github.com/johncmunson"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Shirley Contracting",
+      "position": "Project Engineer",
+      "website": "",
+      "startDate": "2013-12-01",
+      "endDate": "2014-12-01",
+      "summary": "Shirley Contracting is a heavy civil general contractor based in Northern Virginia. Many of their projects involve new bridge contstruction or rehabilitation, highway widening, multi-modal transportation, utility relocation, and sometimes keystone features such as arches and tunnels.",
+      "highlights": [
+        "Managed dozens of crews and subcontractors",
+        "Tracked costs and budget for $20M+ dollar projects",
+        "Analyzed plans and design codes to provide stakeholders with a quality product"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "CoderDojo",
+      "position": "Teacher",
+      "website": "https://coderdojo.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Global movement of free coding clubs for young people.",
+      "highlights": [
+        "Awarded 'Teacher of the Month'"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Oklahoma",
+      "area": "Information Technology",
+      "studyType": "Bachelor",
+      "startDate": "2011-06-01",
+      "endDate": "2014-01-01",
+      "gpa": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL",
+        "CS2011 - Java Introduction"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Digital Compression Pioneer Award",
+      "date": "2014-11-01",
+      "awarder": "Techcrunch",
+      "summary": "There is no spoon."
+    }
+  ],
+  "publications": [
+    {
+      "name": "Video compression for 3d media",
+      "publisher": "Hooli",
+      "releaseDate": "2014-10-01",
+      "website": "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
+      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend",
+      "level": "Master",
+      "keywords": [
+        "React",
+        "AngularJS",
+        "Javascript",
+        "ES6+",
+        "Node",
+        "PostgreSQL",
+        "HTML",
+        "CSS",
+        "Sass"
+      ]
+    },
+    {
+      "name": "Backend",
+      "level": "Master",
+      "keywords": [
+        "Javascript",
+        "Node",
+        "Express",
+        "REST APIs",
+        "PostgreSQL"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Cole Allan",
+      "reference": "It is my pleasure to recommend John, his performance working as a developer for Brewbase proved that he will be a valuable addition to any company."
+    }
+  ]
+}
