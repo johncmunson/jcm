@@ -36,6 +36,8 @@ const NavBar = (props) => (
         <NavItem><A href='https://registry.jsonresume.org/johnmunson'>resume</A></NavItem>
         <NavItem><A href='#'>portfolio</A></NavItem>
         <NavItem><A href='https://www.linkedin.com/in/john-munson/'>linkedin</A></NavItem>
+        <NavItem><A href='https://unsplash.com/@johnmunson'>photography</A></NavItem>
+        <NavItem><A href='https://medium.com/@johncmunson91'>blog</A></NavItem>
     </Nav>
 )
 
