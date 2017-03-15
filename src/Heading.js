@@ -13,11 +13,14 @@ const Title = styled.p`
 `
 
 const SubTitle = styled.p`
-    margin: 0 auto 70px auto;
+    margin: 0 auto 45px auto;
     font: italic 300 1.5em/1.5 Roboto;
     text-align: center;
     color: #16BFFD;
     letter-spacing: 0.5em;
+    @media (min-width: 651px) {
+        margin-bottom: 70px;
+    }
 `
 
 const Heading = (props) => (

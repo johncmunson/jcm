@@ -15,6 +15,9 @@ const Nav = styled.nav`
     @media (max-width: 650px) {
         flex-direction: column;
     }
+    @media (max-width: 775px) {
+        width: 80vw;
+    }
     text-align: center;
     justify-content: space-around;
     width: 70vw;

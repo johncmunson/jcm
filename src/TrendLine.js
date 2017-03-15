@@ -3,7 +3,7 @@ import Trend from 'react-trend'
 import styled from 'styled-components'
 
 const StyledTrend = styled(Trend)`
-    position: fixed;
+    position: absolute;
     top: 5vw;
     @media (min-width: 651px) {
         top: 10vw;
@@ -19,7 +19,7 @@ const TrendLine = (props) => (
         gradient={['#16BFFD', '#CB3066']}
         smooth
         radius={15}
-        strokeWidth={0.2}
+        strokeWidth={0.3}
     />
 )
 
