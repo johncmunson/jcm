@@ -4,7 +4,6 @@ import styled from 'styled-components'
 
 const StyledTrend = styled(Trend)`
     position: absolute;
-    top: 5vw;
     @media (min-width: 651px) {
         top: 10vw;
     }

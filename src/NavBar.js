@@ -5,12 +5,12 @@ const NavItem = styled.div`
     font: italic 300 1em/1.5 Roboto;
     color: #16BFFD;
     @media (max-width: 650px) {
-        margin-bottom: 2em;
+        margin-bottom: 1.5em;
     }
 `
 
 const Nav = styled.nav`
-    margin: 0 auto;
+    margin: 0 auto 30px auto;
     display: flex;
     @media (max-width: 650px) {
         flex-direction: column;

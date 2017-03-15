@@ -10,6 +10,9 @@ const Title = styled.p`
     @media (min-width: 651px) {
         margin-top: 240px;
     }
+    @media (max-height: 400px) and (min-width: 651px) {
+        margin-top: 90px;
+    }
 `
 
 const SubTitle = styled.p`
