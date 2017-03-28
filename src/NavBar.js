@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import A from './A.js'
 
 const NavItem = styled.div`
     font: italic 300 1em/1.5 Roboto;
@@ -23,14 +24,6 @@ const Nav = styled.nav`
     }
     @media (min-aspect-ratio: 1/1) {
         flex-direction: row;
-    }
-`
-
-const A = styled.a`
-    color: #16BFFD;
-    text-decoration: none;
-    &:hover {
-        text-decoration: underline;
     }
 `
 

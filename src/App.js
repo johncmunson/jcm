@@ -2,6 +2,7 @@ import React from 'react'
 import Jumbotron from './Jumbotron.js'
 import NavBar from './NavBar.js'
 import Footer from './Footer.js'
+import A from './A.js'
 import styled from 'styled-components'
 import './App.css'
 
@@ -20,7 +21,7 @@ const App = (props) => (
             <br />
             Made with 💪 in 🇺🇸.
             <br />
-            Fork me on Github.
+            Fork me on <A href='https://github.com/johncmunson/jcm'><u>Github.</u></A>
         </Footer>
     </StickyFooterWrapper>
 )
