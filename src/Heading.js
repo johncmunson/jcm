@@ -16,7 +16,7 @@ const Title = styled.p`
 `
 
 const SubTitle = styled.p`
-    margin: 0 auto 50px auto;
+    margin: 0 auto 20px auto;
     font: italic 300 1.5em/1.5 Roboto, sans-serif;
     text-align: center;
     color: #16BFFD;
