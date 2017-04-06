@@ -20,10 +20,14 @@ const SubTitle = styled.p`
     font: italic 300 1.5em/1.5 Roboto, sans-serif;
     text-align: center;
     color: #16BFFD;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.45em;
     @media (min-width: 651px) {
         margin-bottom: 70px;
     }
+`
+
+const S = styled.span`
+    text-shadow: #CB3066 0.5px 0.5px 0px;
 `
 
 const Heading = (props) => (
@@ -31,12 +35,34 @@ const Heading = (props) => (
         <Title
             className='animated fadeIn'
         >
-            john munson
+            <S>j</S>
+            <S>o</S>
+            <S>h</S>
+            <S>n</S>
+            <S> </S>
+            <S>m</S>
+            <S>u</S>
+            <S>n</S>
+            <S>s</S>
+            <S>o</S>
+            <S>n</S>
         </Title>
         <SubTitle
             className='animated fadeIn'
         >
-            web developer
+            <S>w</S>
+            <S>e</S>
+            <S>b</S>
+            <S> </S>
+            <S>d</S>
+            <S>e</S>
+            <S>v</S>
+            <S>e</S>
+            <S>l</S>
+            <S>o</S>
+            <S>p</S>
+            <S>e</S>
+            <S>r</S>
         </SubTitle>
     </div>
 )

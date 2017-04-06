@@ -26,6 +26,7 @@ const Img2 = styled.img`
     position: fixed;
     bottom: 0;
     right: 0;
+    height: 150px;
 `
 
 const App = (props) => (
