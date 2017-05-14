@@ -1,10 +1,10 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import A from './A.js'
 
 const NavItem = styled.div`
-    font: italic 300 1em/1.5 Roboto;
+    font: italic 300 1em/1.75 Roboto;
     color: #16BFFD;
     @media (max-width: 650px) {
         margin-bottom: 1.5em;
@@ -28,21 +28,20 @@ const Nav = styled.nav`
     }
 `
 
-const StyledLink = styled(Link)`
-    color: #16BFFD;
-    margin: 0.5em 0;
-    font: italic 300 1em/1.5 Roboto;
-    text-decoration: none;
-    &:hover {
-    text-decoration: underline;
-    }
-`
+// const StyledLink = styled(Link)`
+//     color: #16BFFD;
+//     margin: 0.5em 0;
+//     font: italic 300 1em/1.5 Roboto;
+//     text-decoration: none;
+//     &:hover {
+//     text-decoration: underline;
+//     }
+// `
 
 const NavBar = (props) => (
     <Nav className='animated fadeIn'>
         <NavItem><A href='https://github.com/johncmunson'>github</A></NavItem>
         <NavItem><A href='https://twitter.com/curtismunson'>twitter</A></NavItem>
-        <NavItem><StyledLink to='/about'>about</StyledLink></NavItem>
         <NavItem><A href='https://registry.jsonresume.org/johnmunson'>resume</A></NavItem>
         <NavItem><A href='#'>portfolio</A></NavItem>
         <NavItem><A href='https://www.linkedin.com/in/john-munson/'>linkedin</A></NavItem>
