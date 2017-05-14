@@ -7,12 +7,7 @@ import Home from './Home.js'
 import Portfolio from './Portfolio.js'
 
 const App = (props) => (
-    <Router>
-        <div>
-            <Route exact path='/' component={Home} />
-            <Route path='/portfolio' component={Portfolio} />
-        </div>
-    </Router>
+    <Home />
 )
 
 export default App
